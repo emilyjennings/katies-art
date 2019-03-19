@@ -1,3 +1,12 @@
+# Katie's Art
+
+This project was made with an artist's gallery in mind. I wanted to create a sort of portfolio. There will be a landing page, an 'about' page for a bio, and a gallery page with an index of images.
+
+This will start as a react front end app. I want to create the features and design first.
+
+Then, I will add a back end using redux to make the app into a way for the artist, the admin, to log in and add new content.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
