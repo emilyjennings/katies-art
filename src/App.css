@@ -1,11 +1,44 @@
+body {
+  background-color: black;
+}
+
 .navbar {
   height: auto;
   display: block;
   text-align: center;
-  background: salmon;
-  padding: 10px
+  padding: 10px;
+  background-image: linear-gradient(to right, #f74fca, #af25bc);
+  position: fixed;
+  width: 100%;
+}
+
+
+.navtitle, .emily {
+  padding: 10px 0 20px 0;
 }
 
 .navtitle {
-  padding: 20px;
+  font-size: 50px;
+  font-family: 'Monoton', cursive;
+}
+
+.emily {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  z-index: -1;
+  font-family: 'Pacifico', cursive;
+  color: #f74fca
+}
+
+.cardborder {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.artimage img {
+  width: 300px;
+  padding: 20%;
 }
