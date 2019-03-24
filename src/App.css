@@ -8,12 +8,12 @@ body {
   height: auto;
   display: block;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   background-image: linear-gradient(to right, #f74fca, #af25bc);
   position: fixed;
   width: 100%;
+  top: 0;
 }
-
 
 .navtitle, .emily {
   padding: 10px 0 20px 0;
@@ -24,12 +24,20 @@ body {
   font-family: 'Monoton', cursive;
 }
 
-.placeholder {
-  display: block;
-  height: 100px;
-  top: 0;
-  position: relative;
+.navlinks a {
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 3px 5px 4px 5px;
+  border-radius: 5px;
 }
+
+.navlinks a:hover {
+  background-color: black;
+  color: #f74fca
+}
+
 
 /* Footer */
 
@@ -67,9 +75,13 @@ img {
 
 .caption {
   color: #f74fca;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Nova Mono', cursive;
   text-align: center;
   margin-bottom: 30px
+}
+
+.gallery {
+  margin-top: 15%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -79,5 +91,10 @@ img {
     display: block;
     float: none;
   }
+
+  .gallery {
+    margin-top: 150px;
+  }
+
 
 }

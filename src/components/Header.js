@@ -1,15 +1,14 @@
 import React from 'react';
 
+import NavLinks from './NavLinks'
+
 const Header = () => {
 
     return (
-      <div className="placeholder">
         <div className="navbar">
           <div class="navtitle">Katie's Work</div>
+          <NavLinks />
         </div>
-        <div className="placeholder"></div>
-      </div>
-
     );
 
 }

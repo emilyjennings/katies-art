@@ -26,7 +26,6 @@ export default class GalleryCards extends Component {
 
 
   render() {
-    //The Search field is rendered and the results are presented.
     return (
       <div className="gallery">
         {this.displayCards()}
