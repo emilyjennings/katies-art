@@ -40,7 +40,7 @@ body {
   padding: 10px;
   z-index: 1;
   font-family: 'Pacifico', cursive;
-  color: #f74fca
+  color: #f74fca;
 }
 
 
@@ -60,6 +60,9 @@ body {
 img {
   display: block;
   width: 100%;
+  border: 1px solid #f74fca;
+  border-radius: 5px;
+  box-shadow: 5px 10px #f74fca;
 }
 
 .caption {
@@ -67,4 +70,14 @@ img {
   font-family: 'Berkshire Swash', cursive;
   text-align: center;
   margin-bottom: 30px
+}
+
+@media only screen and (max-width: 700px) {
+
+  .cardborder {
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
 }
