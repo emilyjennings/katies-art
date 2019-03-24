@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import Shows from './Shows'
-import About from './About'
-
 const NavLinks = () => {
 
     return (
@@ -11,6 +8,7 @@ const NavLinks = () => {
           <Link to="/shows">Events</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/">Gallery</Link>
         </div>
     );
 

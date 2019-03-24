@@ -15,13 +15,13 @@ export default class GalleryCards extends Component {
 
   // Used to render the gallery images
   displayCards = () => {
-      return this.state.images.map(image =>
-        <div className="cardborder">
-          <div className="imageborder">
-            <img src={image} alt="galleryimage" />
-          </div>
-          <div className="caption">Caption</div>
-        </div>)
+    return this.state.images.map(image =>
+      <div className="cardborder">
+        <div className="imageborder">
+          <img src={image} alt="galleryimage" />
+        </div>
+        <div className="caption">Caption</div>
+      </div>)
   }
 
 
@@ -29,11 +29,11 @@ export default class GalleryCards extends Component {
     return (
       <div className="gallery">
         {this.displayCards()}
+        <h1 className="caption">End</h1>
       </div>
     );
   };
 
-//The component has loaded and the functions are called - was using this before but not currently
   componentDidMount(){
 
   }
