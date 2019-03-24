@@ -6,8 +6,8 @@ const Header = () => {
       <div className="placeholder">
         <div className="navbar">
           <div class="navtitle">Katie's Work</div>
-
         </div>
+        <div className="placeholder"></div>
       </div>
 
     );

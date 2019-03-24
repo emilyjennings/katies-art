@@ -2,6 +2,8 @@ body {
   background-color: black;
 }
 
+/* Header */
+
 .navbar {
   height: auto;
   display: block;
@@ -22,23 +24,47 @@ body {
   font-family: 'Monoton', cursive;
 }
 
+.placeholder {
+  display: block;
+  height: 100px;
+  top: 0;
+  position: relative;
+}
+
+/* Footer */
+
 .emily {
   position: fixed;
   bottom: 0;
   right: 0;
   padding: 10px;
-  z-index: -1;
+  z-index: 1;
   font-family: 'Pacifico', cursive;
   color: #f74fca
 }
 
+
+/* Cards */
+
 .cardborder {
   width: 50%;
-  display: block;
+  display: inline-block;
   float: left;
 }
 
-.artimage img {
-  width: 300px;
-  padding: 20%;
+.imageborder {
+  width: 60%;
+  padding: 40px 20%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.caption {
+  color: #f74fca;
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+  margin-bottom: 30px
 }
