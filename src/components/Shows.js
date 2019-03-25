@@ -19,15 +19,16 @@ export default class Shows extends Component {
   }
 
   displayEvents = () => {
-    for (const key in this.state.events) {
-    }
+
   }
 
   render() {
     return (
       <div className="showcontainer">
-        {this.state.events.Title1}
         {this.displayEvents()}
+        <div className="imageborder">{this.state.events.Title1}</div>
+        <div className="imageborder">{this.state.events.Title2}</div>
+        <div className="imageborder">{this.state.events.Title3}</div>
       </div>
     );
   };

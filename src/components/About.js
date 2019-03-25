@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import $ from 'jquery'
 
 export default class About extends Component {
 
+  changeHeader = () => {
+    $('.navtitle').text("About Katie")
+  }
 
   render() {
     return (
@@ -13,7 +17,7 @@ export default class About extends Component {
   };
 
   componentDidMount(){
-
+    {this.changeHeader()}
   }
 
 

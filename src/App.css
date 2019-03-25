@@ -5,23 +5,19 @@ body {
 /* Header */
 
 .navbar {
-  height: auto;
+  height: 160px;
   display: block;
   text-align: center;
-  padding: 20px;
   background-image: linear-gradient(to right, #f74fca, #af25bc);
   position: fixed;
   width: 100%;
   top: 0;
 }
 
-.navtitle, .emily {
-  padding: 10px 0 20px 0;
-}
-
 .navtitle {
   font-size: 50px;
   font-family: 'Monoton', cursive;
+  padding: 20px;
 }
 
 .navlinks a {
@@ -42,6 +38,7 @@ body {
 /* Footer */
 
 .emily {
+  padding: 10px 0 20px 0;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -65,6 +62,28 @@ body {
   padding: 40px 20%;
 }
 
+/* Pages */
+
+.contactcontainer {
+  display: block;
+  color: #f74fca;
+  border: 1px solid #f74fca;
+  width: 40%;
+  text-align: center;
+  margin: 250px 30% 0 30%;
+}
+
+.showcontainer {
+  display: block;
+  color: #f74fca;
+  border: 1px solid #f74fca;
+  width: 40%;
+  text-align: center;
+  margin: 250px 30% 0 30%;
+}
+
+/* Images */
+
 img {
   display: block;
   width: 100%;
@@ -84,7 +103,7 @@ img {
   margin-top: 15%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 
   .cardborder {
     width: 100%;
@@ -97,18 +116,14 @@ img {
   }
 
   .navtitle {
-    font-size: 37px;
+    font-size: 40px;
     font-family: 'Monoton', cursive;
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
   }
 
   .navlinks {
     margin-top: 20px;
-  }
-
-  .navbar {
-    padding: 30px 0;
   }
 
   .emily {

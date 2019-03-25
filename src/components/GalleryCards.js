@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import $ from 'jquery'
 
 import image1 from './images/image1.jpg'
 import image2 from './images/image2.jpg'
@@ -11,6 +11,10 @@ export default class GalleryCards extends Component {
 
   state = {
     images: [image1, image2, image3, image4]
+  }
+
+  changeHeader = () => {
+    $('.navtitle').text("Katie's Work")
   }
 
   // Used to render the gallery images
@@ -35,7 +39,7 @@ export default class GalleryCards extends Component {
   };
 
   componentDidMount(){
-
+    {this.changeHeader()}
   }
 
 
