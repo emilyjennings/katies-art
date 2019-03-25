@@ -122,8 +122,8 @@ img {
     margin: 20px 0;
   }
 
-  .navlinks {
-    margin-top: 20px;
+  .navlinks a {
+    margin: 20px 7px;
   }
 
   .emily {
