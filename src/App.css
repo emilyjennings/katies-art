@@ -67,19 +67,42 @@ body {
 .contactcontainer {
   display: block;
   color: #f74fca;
-  border: 1px solid #f74fca;
   width: 40%;
   text-align: center;
-  margin: 250px 30% 0 30%;
+  margin: 250px auto;
+  padding: 20px;
+  border: 1px solid #f74fca;
+  border-radius: 5px;
+  box-shadow: 5px 10px #f74fca;
 }
 
 .showcontainer {
   display: block;
   color: #f74fca;
-  border: 1px solid #f74fca;
-  width: 40%;
+  width: 90%;
   text-align: center;
-  margin: 250px 30% 0 30%;
+  margin: 250px auto;
+}
+
+.aboutcontainer {
+  display: block;
+  color: #f74fca;
+  width: 90%;
+  text-align: center;
+  margin: 250px auto;
+  border: 1px solid #f74fca;
+  border-radius: 5px;
+  box-shadow: 5px 10px #f74fca;
+}
+
+.eventcard {
+  display: inline-block;
+  width: 40%;
+  border: 1px solid #f74fca;
+  border-radius: 5px;
+  box-shadow: 5px 10px #f74fca;
+  float: left;
+  margin: 4%;
 }
 
 /* Images */
