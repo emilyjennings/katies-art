@@ -33,7 +33,6 @@ export default class GalleryCards extends Component {
     return (
       <div className="gallery">
         {this.displayCards()}
-        <h1 className="caption">End</h1>
       </div>
     );
   };
