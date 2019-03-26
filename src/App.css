@@ -38,6 +38,10 @@ body {
   color: #9e5299
 }
 
+a:visited {
+  color: black
+}
+
 
 /* Footer */
 
@@ -156,6 +160,10 @@ img {
 
   .emily {
     font-size: 12px;
+  }
+
+  .navbar {
+    height: 130px;
   }
 
 }
