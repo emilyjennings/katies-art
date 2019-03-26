@@ -1,5 +1,7 @@
 body {
-  background-color: black;
+  background-color: rgb(206, 136, 202);
+  color: black;
+  font-family: 'Just Another Hand', cursive;
 }
 
 /* Header */
@@ -8,30 +10,32 @@ body {
   height: 160px;
   display: block;
   text-align: center;
-  background-image: linear-gradient(to right, #f74fca, #af25bc);
+  background-image: linear-gradient(to top, rgb(201, 169, 199), rgb(206, 136, 202));
+  /* background-color: rgb(206, 136, 202); */
   position: fixed;
   width: 100%;
   top: 0;
 }
 
 .navtitle {
-  font-size: 50px;
-  font-family: 'Monoton', cursive;
+  font-size: 70px;
+  font-family: 'Just Another Hand', cursive;
   padding: 20px;
 }
 
 .navlinks a {
   margin: 20px;
+  font-size: 27px;
   color: black;
   text-decoration: none;
   border: 1px solid black;
-  padding: 3px 5px 4px 5px;
+  padding: 4px 5px 3px 5px;
   border-radius: 5px;
 }
 
 .navlinks a:hover {
-  background-color: black;
-  color: #f74fca
+  background-color: rgb(206, 136, 202);
+  color: #9e5299
 }
 
 
@@ -44,8 +48,8 @@ body {
   right: 0;
   padding: 10px;
   z-index: 1;
-  font-family: 'Pacifico', cursive;
-  color: #f74fca;
+  font-family: 'Vibur', cursive;
+  color: black;
 }
 
 
@@ -66,19 +70,19 @@ body {
 
 .contactcontainer {
   display: block;
-  color: #f74fca;
+  color: black;
   width: 40%;
   text-align: center;
   margin: 250px auto;
   padding: 20px;
-  border: 1px solid #f74fca;
+  border: 1px solid rgb(196, 104, 190);
   border-radius: 5px;
-  box-shadow: 5px 10px #f74fca;
+  box-shadow: 5px 10px rgb(196, 104, 190);
 }
 
 .showcontainer {
   display: block;
-  color: #f74fca;
+  color: black;
   width: 90%;
   text-align: center;
   margin: 250px auto;
@@ -86,21 +90,21 @@ body {
 
 .aboutcontainer {
   display: block;
-  color: #f74fca;
-  width: 90%;
+  color: black;
   text-align: center;
-  margin: 250px auto;
-  border: 1px solid #f74fca;
+  margin: 250px 20px;
+  border: 1px solid rgb(196, 104, 190);
   border-radius: 5px;
-  box-shadow: 5px 10px #f74fca;
+  box-shadow: 5px 10px rgb(196, 104, 190);
+  padding: 20px
 }
 
 .eventcard {
   display: inline-block;
   width: 40%;
-  border: 1px solid #f74fca;
+  border: 1px solid rgb(196, 104, 190);
   border-radius: 5px;
-  box-shadow: 5px 10px #f74fca;
+  box-shadow: 5px 10px rgb(196, 104, 190);
   float: left;
   margin: 4%;
 }
@@ -110,14 +114,14 @@ body {
 img {
   display: block;
   width: 100%;
-  border: 1px solid #f74fca;
+  border: 1px solid rgb(196, 104, 190);
   border-radius: 5px;
-  box-shadow: 5px 10px #f74fca;
+  box-shadow: 5px 10px rgb(196, 104, 190);
 }
 
 .caption {
-  color: #f74fca;
-  font-family: 'Nova Mono', cursive;
+  color: black;
+  font-family: 'Vibur', cursive;
   text-align: center;
   margin-bottom: 30px
 }
@@ -139,13 +143,13 @@ img {
   }
 
   .navtitle {
-    font-size: 40px;
-    font-family: 'Monoton', cursive;
+    font-size: 45px;
     padding: 0;
     margin: 20px 0;
   }
 
   .navlinks a {
+    font-size: 25px;
     margin: 20px 7px;
   }
 

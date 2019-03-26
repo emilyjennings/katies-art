@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <div className="navbar">
-          <div className="navtitle">Katie's Work</div>
+          <div className="navtitle"></div>
           <NavLinks />
         </div>
     );
