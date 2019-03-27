@@ -85,6 +85,10 @@ a:visited {
   box-shadow: 5px 10px rgb(196, 104, 190);
 }
 
+.bio, .details {
+  font-size: 30px;
+}
+
 .showcontainer {
   display: block;
   color: black;
