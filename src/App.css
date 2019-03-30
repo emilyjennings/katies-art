@@ -1,16 +1,16 @@
 body {
-  background-color: rgb(206, 136, 202);
+  background-color: #F4D7F3;
   color: black;
-  font-family: 'Just Another Hand', cursive;
+  font-family: 'Amatic SC', cursive;
 }
 
 /* Header */
 
 .navbar {
-  height: 160px;
+  height: 180px;
   display: block;
   text-align: center;
-  background-image: linear-gradient(to top, rgb(201, 169, 199), rgb(206, 136, 202));
+  background-image: linear-gradient(to top, #f7c5f5, #F4D7F3);
   /* background-color: rgb(206, 136, 202); */
   position: fixed;
   width: 100%;
@@ -19,7 +19,7 @@ body {
 
 .navtitle {
   font-size: 70px;
-  font-family: 'Just Another Hand', cursive;
+  font-family: 'Amatic SC', cursive;
   padding: 20px;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .navlinks a:hover {
-  background-color: rgb(206, 136, 202);
+  background-color: #d1a1cf;
   color: #9e5299
 }
 
@@ -52,7 +52,7 @@ a:visited {
   right: 0;
   padding: 10px;
   z-index: 1;
-  font-family: 'Vibur', cursive;
+  font-family: 'Amatic SC', cursive;
   color: black;
 }
 
@@ -60,7 +60,7 @@ a:visited {
 /* Cards */
 
 .cardborder {
-  width: 50%;
+  width: 32%;
   display: inline-block;
   float: left;
 }
@@ -80,9 +80,9 @@ a:visited {
   text-align: center;
   margin: 250px auto;
   padding: 20px;
-  border: 1px solid rgb(196, 104, 190);
+  border: 1px solid #d1a1cf;
   border-radius: 5px;
-  box-shadow: 5px 10px rgb(196, 104, 190);
+  box-shadow: 5px 10px #d1a1cf;
 }
 
 .bio, .details {
@@ -101,19 +101,28 @@ a:visited {
   display: block;
   color: black;
   text-align: center;
-  margin: 250px 20px;
-  border: 1px solid rgb(196, 104, 190);
+  width: 80%;
+  margin: 220px auto 40px auto;
+  border: 1px solid #d1a1cf;
   border-radius: 5px;
-  box-shadow: 5px 10px rgb(196, 104, 190);
-  padding: 20px
+  box-shadow: 5px 10px #d1a1cf;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.aboutimage {
+  width: 30%;
+  display: inline-block;
+  float: right;
+  margin: 20px
 }
 
 .eventcard {
   display: inline-block;
   width: 40%;
-  border: 1px solid rgb(196, 104, 190);
+  border: 1px solid #d1a1cf;
   border-radius: 5px;
-  box-shadow: 5px 10px rgb(196, 104, 190);
+  box-shadow: 5px 10px #d1a1cf;
   float: left;
   margin: 4%;
 }
@@ -123,14 +132,14 @@ a:visited {
 img {
   display: block;
   width: 100%;
-  border: 1px solid rgb(196, 104, 190);
+  border: 1px solid #d1a1cf;
   border-radius: 5px;
-  box-shadow: 5px 10px rgb(196, 104, 190);
+  box-shadow: 2px 4px #d1a1cf;
 }
 
 .caption {
   color: black;
-  font-family: 'Vibur', cursive;
+  font-family: 'Amatic SC', cursive;
   text-align: center;
   margin-bottom: 30px
 }
@@ -167,7 +176,13 @@ img {
   }
 
   .navbar {
-    height: 130px;
+    height: 150px;
   }
+
+  .aboutimage {
+    float: none;
+    width: 80%;
+  }
+
 
 }
