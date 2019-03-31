@@ -10,7 +10,7 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contactcontainer">
-        <div className="details">Please contact me via email, katie@katie.com</div>
+        <div className="details">Contact form coming soon</div>
       </div>
     );
   };
