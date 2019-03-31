@@ -19,7 +19,17 @@ import image13 from './images/house.jpg'
 export default class GalleryCards extends Component {
 
   state = {
-    images: [image1, image2, image3, image4, image5, image6, image7, image8, image9, image11, image10, image12, image13]
+    images: {
+      image1: {
+        link: image1,
+        desc: "11x14 custom oil paint pet portrait. $225"
+      },
+      image2: {
+        link: image2,
+        desc: "11x14 custom oil paint pet portrait. $275"
+      }
+    }
+    // , image3, image4, image5, image6, image7, image8, image9, image11, image10, image12, image13}
   }
 
   changeHeader = () => {
@@ -28,14 +38,16 @@ export default class GalleryCards extends Component {
 
   // Used to render the gallery images
   displayCards = () => {
-    return this.state.images.map(image =>
+    return Object.values(this.state.images).map(image =>
       <div className="cardborder">
         <div className="imageborder">
-          <img src={image} alt="galleryimage" />
+          <img src={image.link} alt="galleryimage" />
         </div>
-        <div className="caption">Caption</div>
+        <div className="caption">{image.desc}</div>
       </div>)
   }
+
+
 
 
   render() {
