@@ -18,9 +18,9 @@ body {
 }
 
 .navtitle {
-  font-size: 70px;
+  font-size: 60px;
   font-family: 'Amatic SC', cursive;
-  padding: 20px;
+  padding: 20px auto 0 auto;
 }
 
 .navlinks a {
@@ -31,15 +31,22 @@ body {
   border: 1px solid black;
   padding: 4px 5px 3px 5px;
   border-radius: 5px;
+  clear: both;
 }
 
 .navlinks a:hover {
-  background-color: #d1a1cf;
-  color: #9e5299
+  background-color: #f7edf7;
+  color: #9e5299;
 }
 
 a:visited {
   color: black
+}
+
+.navsubtitle {
+  font-family: 'Molengo', sans-serif;
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
 
@@ -111,6 +118,7 @@ a:visited {
   font-size: 23px;
   font-family: 'Molengo', sans-serif;
   text-align: left;
+  padding: 20px
 }
 
 .details {
@@ -184,11 +192,15 @@ img {
   .navtitle {
     font-size: 45px;
     padding: 0;
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
+  }
+
+  .navsubtitle {
+    font-size: 20px;
   }
 
   .navlinks a {
-    font-size: 25px;
+    font-size: 23px;
     margin: 20px 7px;
   }
 
@@ -197,7 +209,7 @@ img {
   }
 
   .navbar {
-    height: 150px;
+    height: 180px;
   }
 
   .aboutimage {
