@@ -6,7 +6,7 @@ import katie from './images/Katieslashrun.jpg'
 export default class About extends Component {
 
   changeHeader = () => {
-    $('.navsubtitle').text("About Katie")
+    $('.navsubtitle').text("about me")
   }
 
   render() {

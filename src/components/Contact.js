@@ -4,7 +4,7 @@ import $ from 'jquery'
 export default class Contact extends Component {
 
   changeHeader = () => {
-    $('.navsubtitle').text("Contact Me")
+    $('.navsubtitle').text("contact me")
   }
 
   render() {

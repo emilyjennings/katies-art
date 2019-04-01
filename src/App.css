@@ -10,7 +10,7 @@ body {
   height: 180px;
   display: block;
   text-align: center;
-  background-image: linear-gradient(to top, #f7c5f5, #F4D7F3);
+  background-image: linear-gradient(to top, #f7c5f5, #f7e1f7);
   /* background-color: rgb(206, 136, 202); */
   position: fixed;
   width: 100%;
@@ -67,7 +67,7 @@ a:visited {
 /* Cards */
 
 .cardborder {
-  width: 32%;
+  width: 33.33333%;
   display: inline-block;
   float: left;
 }
@@ -89,7 +89,8 @@ a:visited {
   font-family: 'Amatic SC', cursive;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 25px
+  font-size: 25px;
+  padding: 0 20px;
 }
 
 .noimage {

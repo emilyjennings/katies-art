@@ -114,7 +114,7 @@ export default class GalleryCards extends Component {
       <div className="gallery">
         {this.displayCards()}
         <div className="noimage">
-          <h2>Don't see what you're looking for? Let's talk about custom pieces.</h2>
+          <h2>Don't see what you're looking for? Let's talk.</h2>
         </div>
       </div>
     );
