@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="app">
           <MainContainer />
 
           <Route exact path="/" component={GalleryCards} />

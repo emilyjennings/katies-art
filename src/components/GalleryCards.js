@@ -97,12 +97,14 @@ export default class GalleryCards extends Component {
   // Used to render the gallery images
   displayCards = () => {
     return Object.values(this.state.images).map(image =>
-      <div className="cardborder">
-        <div className="imageborder">
-          <img src={image.link} alt="" />
+      <div className="clearfix">
+        <div className="cardborder">
+          <div className="imageborder">
+            <img src={image.link} alt="" />
+          </div>
+          <div className="caption">{image.desc}</div>
+          <div className="price">{image.price}</div>
         </div>
-        <div className="caption">{image.desc}</div>
-        <div className="price">{image.price}</div>
       </div>)
   }
 
