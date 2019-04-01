@@ -6,7 +6,8 @@ const Header = () => {
 
     return (
         <div className="navbar">
-          <div className="navtitle"></div>
+          <div className="navtitle">KATIE PAINTS PORTRAITS</div>
+          <div className="navsubtitle"></div>      
           <NavLinks />
         </div>
     );

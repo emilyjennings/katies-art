@@ -91,7 +91,7 @@ export default class GalleryCards extends Component {
   }
 
   changeHeader = () => {
-    $('.navtitle').text("KATIE PAINTS PORTRAITS")
+    $('.navsubtitle').text("custom oil portraits")
   }
 
   // Used to render the gallery images

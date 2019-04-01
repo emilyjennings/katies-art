@@ -1,5 +1,5 @@
 body {
-  background-color: #F4D7F3;
+  background-color: #f7edf7;
   color: black;
   font-family: 'Amatic SC', cursive;
 }
@@ -107,7 +107,13 @@ a:visited {
   box-shadow: 5px 10px #d1a1cf;
 }
 
-.bio, .details {
+.bio {
+  font-size: 23px;
+  font-family: 'Molengo', sans-serif;
+  text-align: left;
+}
+
+.details {
   font-size: 30px;
 }
 
