@@ -10,6 +10,8 @@ import Shows from './components/Shows'
 import Contact from './components/Contact'
 import GalleryCards from './components/GalleryCards'
 
+import ImageOne from './components//showpages/1114oilpetbust'
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,8 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/shows" component={Shows} />
           <Route exact path="/contact" component={Contact} />
+
+          <Route exact path="/portrait1" component={ImageOne} />
         </div>
       </BrowserRouter>
     );

@@ -13,37 +13,48 @@ export default class ImageOne extends Component {
   }
 
   changeHeader = () => {
-    $('.navsubtitle').text("11x14 Custom Oil Paint Pet Portrait, Bust")
+    $('.navsubtitle').text("gallery")
   }
 
-  // Used to render the gallery images
-  displayCards = () => {
-    return this.state.images.map(image =>
-      <div className="showborder">
-        <div className="price">$225</div>
-        <div className="showimageborder">
-          <img src={image} alt="" />
-        </div>
-      </div>
-      )
+  changeImage = () => {
+    $('.forwardarrow').on({
+      'click': function() {
+        var src = ($('#imageid').attr('src') === image1)
+          ? image2
+          : image3
+        $("#imageid").attr('src', src)
+       }
+    })
   }
 
-
-
+  backImage = () => {
+    $('.backarrow').on({
+      'click': function() {
+        var src = ($('#imageid').attr('src') === image3)
+          ? image2
+          : image1
+        $("#imageid").attr('src', src)
+       }
+    })
+  }
 
   render() {
     return (
-      <div className="gallery">
-        {this.displayCards()}
-        <div className="noimage">
-          <h2>Don't see what you're looking for? Let's talk.</h2>
-        </div>
+      <div className="show">
+        <div className="title">11x14 Custom Oil Paint Pet Portrait, Bust</div>
+          <div className="price">$225</div>
+          <div className="backarrow">back</div>
+          <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+          <div className="forwardarrow">forward</div>
       </div>
+
     );
   };
 
   componentDidMount(){
     {this.changeHeader()}
+    {this.changeImage()}
+    {this.backImage()}
   }
 
 

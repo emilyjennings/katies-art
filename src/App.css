@@ -181,6 +181,14 @@ img {
   margin-top: 15%;
 }
 
+/*Show*/
+
+.show {
+  margin: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 900px) {
 
   .cardborder {
