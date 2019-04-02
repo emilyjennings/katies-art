@@ -13,7 +13,7 @@ export default class ImageOne extends Component {
   }
 
   changeHeader = () => {
-    $('.navsubtitle').text("gallery")
+    $('.navsubtitle').text("custom oil portraits")
   }
 
   changeImage = () => {
@@ -43,9 +43,9 @@ export default class ImageOne extends Component {
       <div className="show">
         <div className="title">11x14 Custom Oil Paint Pet Portrait, Bust</div>
           <div className="price">$225</div>
-          <div className="backarrow">back</div>
+          <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="forwardarrow">forward</div>
+          <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 
     );

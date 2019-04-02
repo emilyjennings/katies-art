@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import $ from 'jquery'
 
 import image1 from './images/dog1.jpg'
@@ -98,13 +99,13 @@ export default class GalleryCards extends Component {
   displayCards = () => {
     return Object.values(this.state.images).map(image =>
       <div className="clearfix">
-        <div className="cardborder">
+        <Link to="/portrait1"><div className="cardborder">
           <div className="imageborder">
             <img src={image.link} alt="" />
           </div>
           <div className="caption">{image.desc}</div>
           <div className="price">{image.price}</div>
-        </div>
+        </div></Link>
       </div>)
   }
 

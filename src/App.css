@@ -181,12 +181,41 @@ img {
   margin-top: 15%;
 }
 
-/*Show*/
+/*Show Pages*/
 
 .show {
   margin: 200px;
   font-size: 30px;
   text-align: center;
+}
+
+.showimage {
+  width: 60%;
+  margin: auto;
+}
+
+.backarrow, .forwardarrow {
+  font-size: 27px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 4px 5px 3px 5px;
+  border-radius: 5px;
+  clear: both;
+  background-color: #f7c5f5;
+  position: fixed;
+  top: 305px;
+  padding: 40px 15px;
+}
+
+.forwardarrow {
+  right: 200px;
+  padding: 40px 15px;
+}
+
+.backarrow:hover, .forwardarrow:hover {
+  background-color: #f7d9f7;
+  color: #9e5299;
 }
 
 @media only screen and (max-width: 900px) {
@@ -227,6 +256,22 @@ img {
   .aboutimage {
     float: none;
     width: 80%;
+  }
+
+  .forwardarrow {
+    right: 100px
+  }
+
+  .backarrow {
+    left: 100px
+  }
+
+  .show {
+
+  }
+
+  .showimage {
+
   }
 
 
