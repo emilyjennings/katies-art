@@ -177,6 +177,10 @@ img {
   box-shadow: 2px 4px #d1a1cf;
 }
 
+img:hover {
+  opacity: .5;
+}
+
 .gallery {
   margin-top: 15%;
 }
@@ -259,11 +263,13 @@ img {
   }
 
   .forwardarrow {
-    right: 100px
+    right: 100px;
+    padding: 3px
   }
 
   .backarrow {
-    left: 100px
+    left: 100px;
+    padding: 3px
   }
 
   .show {

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import $ from 'jquery'
 
-import image1 from './images/dog1.jpg'
+import portrait1 from './images/dog1.jpg'
 import image2 from './images/dog2.jpg'
 import image12 from './images/dog3.jpg'
 import image3 from './images/dogs1.jpg'
@@ -22,14 +22,16 @@ export default class GalleryCards extends Component {
   state = {
     images: {
       image1: {
-        link: image1,
+        link: portrait1,
         desc: "11x14 custom oil paint pet portrait, bust",
-        price: "$225"
+        price: "$225",
+        name: "/portrait1"
       },
       image2: {
         link: image2,
         desc: "11x14 custom oil paint pet portrait, full figure",
-        price: "$275"
+        price: "$275",
+        name: "/portrait2"
       },
       image3: {
         link: image3,
@@ -99,7 +101,7 @@ export default class GalleryCards extends Component {
   displayCards = () => {
     return Object.values(this.state.images).map(image =>
       <div className="clearfix">
-        <Link to="/portrait1"><div className="cardborder">
+        <Link to={image.name}><div className="cardborder">
           <div className="imageborder">
             <img src={image.link} alt="" />
           </div>
