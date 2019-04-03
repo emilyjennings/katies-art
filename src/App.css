@@ -1,5 +1,5 @@
 body {
-  background-color: #f7edf7;
+  background-color: #efefef;
   color: black;
   font-family: 'Amatic SC', cursive;
   width: 100%;
@@ -8,7 +8,7 @@ body {
 /* Header */
 
 .navbar {
-  height: 180px;
+  height: 190px;
   display: block;
   text-align: center;
   background-image: linear-gradient(to top, #f7c5f5, #f7e1f7);
@@ -16,6 +16,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1
 }
 
 .navtitle {
@@ -45,9 +46,9 @@ a:visited {
 }
 
 .navsubtitle {
-  font-family: 'Molengo', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 20px;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 
@@ -83,6 +84,7 @@ a:visited {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 30px;
+  font-family: "Open Sans Condensed"
 }
 
 .caption {
@@ -90,9 +92,9 @@ a:visited {
   font-family: 'Amatic SC', cursive;
   text-align: center;
   margin: 0 10px 20px 10px;
-  font-size: 21px;
+  font-size: 30px;
   padding: 20px;
-  height: 30px;
+  height: 50px;
   overflow: hidden;
 }
 
@@ -191,10 +193,11 @@ img:hover {
   margin: 200px;
   font-size: 30px;
   text-align: center;
+  font-weight: bold;
 }
 
 .showimage {
-  width: 60%;
+  width: 90%;
   margin: auto;
 }
 
@@ -213,13 +216,21 @@ img:hover {
 }
 
 .forwardarrow {
-  right: 200px;
+  right: 160px;
   padding: 40px 15px;
+}
+
+.backarrow {
+  left: 160px
 }
 
 .backarrow:hover, .forwardarrow:hover {
   background-color: #f7d9f7;
   color: #9e5299;
+}
+
+.show img:hover {
+  opacity: 1
 }
 
 @media only screen and (max-width: 900px) {
@@ -231,7 +242,7 @@ img:hover {
   }
 
   .gallery {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   .navtitle {
@@ -263,21 +274,28 @@ img:hover {
   }
 
   .forwardarrow {
-    right: 100px;
-    padding: 3px
+    right: 2%;
+    margin-top: 100px;
+    padding: 7px
   }
 
   .backarrow {
-    left: 100px;
-    padding: 3px
+    left: 2%;
+    margin-top: 100px;
+    padding: 7px
   }
 
   .show {
-
+    width: 70%;
+    margin: 200px auto;
   }
 
   .showimage {
+    width: 100%
+  }
 
+  a {
+    text-decoration: none;
   }
 
 

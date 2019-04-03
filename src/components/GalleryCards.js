@@ -106,7 +106,6 @@ export default class GalleryCards extends Component {
             <img src={image.link} alt="" />
           </div>
           <div className="caption">{image.desc}</div>
-          <div className="price">{image.price}</div>
         </div></Link>
       </div>)
   }
