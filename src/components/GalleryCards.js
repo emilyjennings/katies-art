@@ -60,27 +60,32 @@ export default class GalleryCards extends Component {
       image7: {
         link: image7,
         desc: "12x9 Watercolor home portrait",
-        price: "$65"
+        price: "$65",
+        name: "/homes"
       },
       image8: {
         link: image8,
         desc: "16x20 oil portrait - bust",
-        price: "$300"
+        price: "$300",
+        name: "/portrait6"
       },
       image9: {
         link: image9,
         desc: "16x20 oil portrait - full figure",
-        price: "$350"
+        price: "$350",
+        name: "/portrait7"
       },
       image10: {
         link: image10,
         desc: "San Miguel de Allende oil painting",
-        price: "$350"
+        price: "$350",
+        name: "/sanmiguel"
       },
       image11: {
         link: image11,
         desc: "16x20 oil portrait - half figure",
-        price: "$325"
+        price: "$325",
+        name: "/portrait8"
       },
       image12: {
         link: image12,

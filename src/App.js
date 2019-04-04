@@ -16,6 +16,11 @@ import ImageThree from './components/showpages/1114oilpetdouble'
 import ImageFour from './components/showpages/1114oilpersondouble'
 import ImageFive from './components/showpages/2016persontriple'
 import ImageSix from './components/showpages/murals'
+import ImageSeven from './components/showpages/128home'
+import ImageEight from './components/showpages/1620oilbust'
+import ImageNine from './components/showpages/1620oilfull'
+import ImageTen from './components/showpages/1620oilhalf'
+import ImageEleven from './components/showpages/sanmiguel'
 
 
 class App extends Component {
@@ -36,6 +41,11 @@ class App extends Component {
           <Route exact path="/portrait4" component={ImageFour} />
           <Route exact path="/portrait5" component={ImageFive} />
           <Route exact path="/murals" component={ImageSix} />
+          <Route exact path="/homes" component={ImageSeven} />
+          <Route exact path="/portrait6" component={ImageEight} />
+          <Route exact path="/portrait7" component={ImageNine} />
+          <Route exact path="/portrait8" component={ImageTen} />
+          <Route exact path="/sanmiguel" component={ImageEleven} />
         </div>
       </BrowserRouter>
     );
