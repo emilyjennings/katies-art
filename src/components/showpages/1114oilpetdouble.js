@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image from '../images/dog2.jpg'
+import image from '../images/dogs1.jpg'
 
 
-export default class ImageTwo extends Component {
+export default class ImageThree extends Component {
 
   state = {
     image: image
@@ -22,8 +22,8 @@ export default class ImageTwo extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">11x14 Custom Oil Pet Portrait, Full Figure</div>
-        <div className="price">$275</div>
+        <div className="title">11x14 Double Pet Oil Portrait</div>
+        <div className="price">$325</div>
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
       </div>
 

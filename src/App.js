@@ -12,6 +12,7 @@ import GalleryCards from './components/GalleryCards'
 
 import ImageOne from './components/showpages/1114oilpetbust'
 import ImageTwo from './components/showpages/1114oilpetfull'
+import ImageThree from './components/showpages/1114oilpetdouble'
 
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
 
           <Route exact path="/portrait1" component={ImageOne} />
           <Route exact path="/portrait2" component={ImageTwo} />
+          <Route exact path="/portrait3" component={ImageThree} />
         </div>
       </BrowserRouter>
     );

@@ -36,7 +36,8 @@ export default class GalleryCards extends Component {
       image3: {
         link: image3,
         desc: "11x14 double pet oil portrait",
-        price: "$325"
+        price: "$325",
+        name: "/portrait3"
       },
       image4: {
         link: image4,
@@ -96,6 +97,10 @@ export default class GalleryCards extends Component {
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
+
+  // handleClickImage = (image) => {
+  //   this.props.displayShowImage(image)
+  // }
 
   // Used to render the gallery images
   displayCards = () => {

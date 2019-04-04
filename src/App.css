@@ -124,7 +124,8 @@ a:visited {
   font-size: 23px;
   font-family: 'Molengo', sans-serif;
   text-align: left;
-  padding: 20px
+  padding: 20px;
+  line-height: 1.5em
 }
 
 .details {
