@@ -15,6 +15,7 @@ import ImageTwo from './components/showpages/1114oilpetfull'
 import ImageThree from './components/showpages/1114oilpetdouble'
 import ImageFour from './components/showpages/1114oilpersondouble'
 import ImageFive from './components/showpages/2016persontriple'
+import ImageSix from './components/showpages/murals'
 
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
           <Route exact path="/portrait3" component={ImageThree} />
           <Route exact path="/portrait4" component={ImageFour} />
           <Route exact path="/portrait5" component={ImageFive} />
+          <Route exact path="/murals" component={ImageSix} />
         </div>
       </BrowserRouter>
     );

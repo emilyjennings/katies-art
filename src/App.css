@@ -170,6 +170,10 @@ a:visited {
   margin: 4%;
 }
 
+.title {
+  font-size: 40px
+}
+
 /* Images */
 
 img {

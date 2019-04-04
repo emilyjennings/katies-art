@@ -54,7 +54,8 @@ export default class GalleryCards extends Component {
       image6: {
         link: image6,
         desc: "Mural",
-        price: "$1000"
+        price: "$1000",
+        name: "/murals"
       },
       image7: {
         link: image7,
