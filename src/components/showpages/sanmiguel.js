@@ -67,8 +67,8 @@ export default class ImageEleven extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">Murals</div>
-          <div className="price">$1000</div>
+        <div className="title">San Miguel de Allende oil painting</div>
+          <div className="price">$350</div>
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>

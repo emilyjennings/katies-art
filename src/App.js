@@ -21,6 +21,8 @@ import ImageEight from './components/showpages/1620oilbust'
 import ImageNine from './components/showpages/1620oilfull'
 import ImageTen from './components/showpages/1620oilhalf'
 import ImageEleven from './components/showpages/sanmiguel'
+import ImageTwelve from './components/showpages/1620oilhalfpet'
+import ImageThirteen from './components/showpages/1620oilfullpet'
 
 
 class App extends Component {
@@ -46,6 +48,8 @@ class App extends Component {
           <Route exact path="/portrait7" component={ImageNine} />
           <Route exact path="/portrait8" component={ImageTen} />
           <Route exact path="/sanmiguel" component={ImageEleven} />
+          <Route exact path="/portrait9" component={ImageTwelve} />
+          <Route exact path="/portrait10" component={ImageThirteen} />
         </div>
       </BrowserRouter>
     );
