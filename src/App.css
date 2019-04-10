@@ -154,7 +154,7 @@ a:visited {
 }
 
 .aboutimage {
-  width: 30%;
+  width: 25%;
   display: inline-block;
   float: right;
   margin: 20px
@@ -202,7 +202,7 @@ img:hover {
 }
 
 .showimage {
-  width: 90%;
+  width: 50%;
   margin: auto;
 }
 
