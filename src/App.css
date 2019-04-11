@@ -81,6 +81,11 @@ a:visited {
 .imageborder {
   width: 60%;
   margin: 40px 20%;
+  height: 180px;
+  overflow: hidden;
+  border: 1px solid #d1a1cf;
+  border-radius: 5px;
+  box-shadow: 2px 4px #d1a1cf;
 }
 
 .price {
@@ -183,9 +188,6 @@ a:visited {
 img {
   display: block;
   width: 100%;
-  border: 1px solid #d1a1cf;
-  border-radius: 5px;
-  box-shadow: 2px 4px #d1a1cf;
 }
 
 img:hover {
@@ -245,6 +247,16 @@ img:hover {
 
 .show img:hover {
   opacity: 1
+}
+
+@media only screen and (max-width: 1195px) {
+  .imageborder {
+    max-height: 140px
+  }
+
+  .clearfix {
+    margin: 200px 0
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -310,6 +322,12 @@ img:hover {
 
   a {
     text-decoration: none;
+  }
+
+  .imageborder {
+    max-height: 1000px;
+    height: auto;
+    overflow: auto;
   }
 
 
