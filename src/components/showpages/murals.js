@@ -61,7 +61,7 @@ export default class ImageSix extends Component {
     return (
       <div className="show">
         <div className="title">Murals</div>
-          <div className="price">$1000+ or inquire for a quote</div>
+          <div className="price">Mural commissions. Interior or exterior. Charged by square footage and detail. Inquire for quotes.</div>
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>

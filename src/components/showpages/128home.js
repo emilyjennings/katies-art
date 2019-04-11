@@ -59,11 +59,10 @@ export default class ImageSeven extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">12x9 Watercolor home portrait</div>
-          <div className="price">$100</div>
-          <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
-          <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
+        <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
+        <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+        <div className="title">Size 12x9 custom watercolor house portrait. $100.</div>
+        <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 
     );

@@ -22,9 +22,8 @@ export default class ImageTen extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">16x20 oil portrait - half figure</div>
-        <div className="price">$325</div>
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="title">Size 16x20 custom oil paint portrait. $325 for 1 figure, half body.</div>
       </div>
 
     );

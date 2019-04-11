@@ -59,10 +59,9 @@ export default class ImageOne extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">11x14 Custom Oil Paint Pet Portrait, Bust</div>
-          <div className="price">$225</div>
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+          <div className="title">Size 11x14 custom oil paint pet portrait. $225 for 1 animal, bust only.</div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 

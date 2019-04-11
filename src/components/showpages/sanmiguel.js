@@ -67,11 +67,10 @@ export default class ImageEleven extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">San Miguel de Allende oil painting</div>
-          <div className="price">$350</div>
-          <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
-          <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
+        <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
+        <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+        <div className="title">Height: 7.5 Inches; Width: 16 Inches. $350. This triptych was painted on the roof of the Bellas Artes in San Miguel de Allende, Mexico. Total length of panels 48". Pewter colored metal frame included.</div>
+        <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 
     );

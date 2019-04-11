@@ -22,9 +22,8 @@ export default class ImageEight extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">16x20 oil portrait - bust</div>
-        <div className="price">$300</div>
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="title">Size 16x20 custom oil paint portrait. $300 for 1 figure, bust only.</div>
       </div>
 
     );

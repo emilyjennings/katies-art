@@ -22,9 +22,8 @@ export default class ImageNine extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">16x20 oil portrait - full figure</div>
-        <div className="price">$350</div>
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="title">Size 16x20 custom oil paint portrait. $350 for 1 figure, full body.</div>
       </div>
 
     );

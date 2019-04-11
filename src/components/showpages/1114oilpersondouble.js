@@ -22,9 +22,8 @@ export default class ImageFour extends Component {
   render() {
     return (
       <div className="show">
-        <div className="title">14x11 Double Oil Portrait</div>
-        <div className="price">$350</div>
         <div className="showimagewide"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="title">Size 14x11 custom oil paint group portrait. $350 for 2 figures, bust only.</div>
       </div>
 
     );
