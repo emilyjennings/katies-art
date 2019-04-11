@@ -43,7 +43,7 @@ export default class ImageFive extends Component {
         <div className="title">20x16 oil portrait 3 figures</div>
           <div className="price">$450</div>
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
-          <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+          <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 

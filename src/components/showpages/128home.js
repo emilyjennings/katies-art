@@ -19,21 +19,39 @@ export default class ImageSeven extends Component {
   changeImage = () => {
     $('.forwardarrow').on({
       'click': function() {
-        var src = ($('#imageid').attr('src') === image1)
-          ? image2
-          : image3
-        $("#imageid").attr('src', src)
-       }
+        switch ($('#imageid').attr('src')) {
+          case image1:
+            $('#imageid').attr('src', image2)
+            break;
+          case image2:
+            $('#imageid').attr('src', image3)
+            break;
+          case image3:
+            $('#imageid').attr('src', image1)
+            break;
+          default:
+            $('#imageid').attr('src', image1)
+        }
+      }
     })
   }
 
   backImage = () => {
     $('.backarrow').on({
       'click': function() {
-        var src = ($('#imageid').attr('src') === image3)
-          ? image2
-          : image1
-        $("#imageid").attr('src', src)
+        switch ($('#imageid').attr('src')) {
+          case image3:
+            $('#imageid').attr('src', image2)
+            break;
+          case image2:
+            $('#imageid').attr('src', image1)
+            break;
+          case image1:
+            $('#imageid').attr('src', image3)
+            break;
+          default:
+            $('#imageid').attr('src', image3)
+        }
        }
     })
   }
@@ -42,9 +60,9 @@ export default class ImageSeven extends Component {
     return (
       <div className="show">
         <div className="title">12x9 Watercolor home portrait</div>
-          <div className="price">$65</div>
+          <div className="price">$100</div>
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
-          <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+          <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 

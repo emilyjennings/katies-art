@@ -24,7 +24,7 @@ export default class ImageFour extends Component {
       <div className="show">
         <div className="title">14x11 Double Oil Portrait</div>
         <div className="price">$350</div>
-        <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="showimagewide"><img src={this.state.image} id="imageid" alt="" /></div>
       </div>
 
     );

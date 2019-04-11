@@ -25,6 +25,10 @@ body {
   padding: 20px auto 0 auto;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navlinks a {
   margin: 20px;
   font-size: 27px;
@@ -203,6 +207,11 @@ img:hover {
 
 .showimage {
   width: 50%;
+  margin: auto;
+}
+
+.showimagewide {
+  width: 80%;
   margin: auto;
 }
 
