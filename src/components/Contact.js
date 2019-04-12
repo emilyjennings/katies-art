@@ -42,6 +42,7 @@ export default class Contact extends Component {
           <textarea name="contact" />
           <input type="submit" value="Send" />
         </form>
+        <div className="caption">This form currently is not working, please use another form of contact</div>
       </div>
     );
   };
