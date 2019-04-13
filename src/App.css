@@ -24,6 +24,10 @@ body {
   height: 200px;
 }
 
+.navbar img:hover {
+  opacity: 1
+}
+
 .navtitle {
   font-size: 60px;
   font-family: 'Amatic SC', cursive;
@@ -301,9 +305,32 @@ img:hover {
     margin: 200px 0
   }
 
-  .navlinks a {
-    margin: 40px
+  .title {
+    font-size: 40px;
+    margin: 8px 8px;
   }
+
+  .show {
+    margin: 200px 5px;
+    font-size: 30px;
+    margin-top: 230px
+  }
+
+  .showimage {
+    width: 70%;
+    margin: 230px auto 10px auto;
+  }
+
+  .showimagewide {
+    width: 95%;
+    margin: 230px auto 10px auto;
+  }
+
+  .navbar {
+    padding: 0;
+
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -319,9 +346,9 @@ img:hover {
   }
 
   .navtitle {
-    font-size: 45px;
+    font-size: 38px;
     padding: 0;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 2px 0;
   }
 
   .navsubtitle {
@@ -348,10 +375,6 @@ img:hover {
 
   .emily {
     font-size: 12px;
-  }
-
-  .navbar {
-    height: 180px;
   }
 
   .aboutimage {
@@ -390,5 +413,43 @@ img:hover {
     overflow: auto;
   }
 
+  .show {
+    margin: 200px auto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 230px;
+    width: 100%
+  }
+
+  .showimage {
+    width: 70%;
+    margin: 230px auto 10px auto;
+  }
+
+  .showimagewide {
+    width: 90%;
+    margin: 230px auto 10px auto;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 190px
+  }
+
+  .clearfix {
+    margin: 10px 0 60px 0
+  }
+
+  .imageborder {
+    margin: 10px auto 5px auto
+  }
+
+  .title {
+    font-weight: normal;
+    font-size: 30px
+  }
 
 }
