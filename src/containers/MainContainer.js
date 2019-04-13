@@ -6,19 +6,6 @@ import Header from '../components/Header'
 
 export default class MainContainer extends Component {
 
-  navStick = () => {
-
-    $(window).scroll(function(){
-      var scrollTop = $(window).scrollTop()
-      if (scrollTop > 130) {
-        $(".navstick").show()
-      } else if (scrollTop <= 130) {
-        $(".navstick").hide()
-      }
-    });
-
-  }
-
 
   render() {
     return(
@@ -29,8 +16,5 @@ export default class MainContainer extends Component {
     )
   }
 
-  componentDidMount(){
-    {this.navStick()}
-  }
 
 }

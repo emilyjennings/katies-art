@@ -32,6 +32,7 @@ body {
   font-size: 60px;
   font-family: 'Amatic SC', cursive;
   padding: 20px auto 0 auto;
+  margin-top: 10px
 }
 
 .navbar a {
@@ -227,6 +228,10 @@ a:visited {
 .title {
   font-size: 40px;
   margin: 20px 100px
+}
+
+.aboutimage img:hover {
+  opacity: 1;
 }
 
 /* Images */

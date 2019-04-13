@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
+import $ from 'jquery'
 
 import './App.css';
 
@@ -25,6 +26,21 @@ import ImageThirteen from './components/showpages/1620oilfullpet'
 
 
 class App extends Component {
+  navStick = () => {
+    $(".navstick").hide()
+
+
+    $(window).scroll(function(){
+      var scrollTop = $(window).scrollTop()
+      if (scrollTop > 130) {
+        $(".navstick").show()
+      } else if (scrollTop <= 130) {
+        $(".navstick").hide()
+      }
+    });
+
+  }
+
   render() {
     return (
       <BrowserRouter>
@@ -53,6 +69,11 @@ class App extends Component {
       </BrowserRouter>
     );
   }
+
+  componentDidMount(){
+    {this.navStick()}
+  }
+
 }
 
 export default App;
