@@ -226,6 +226,11 @@ form {
   font-size: 23px
 }
 
+.formcaption {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
 .submit:hover {
   background-color: #f7edf7;
   color: #9e5299;
@@ -508,6 +513,34 @@ img:hover {
   .title {
     font-weight: normal;
     font-size: 30px
+  }
+
+  .name_field, .message_field, .email_field, .submit {
+    width: 220px;
+    font-size: 15px;
+  }
+
+  .submit {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    clear: both;
+    margin: 20px auto;
+  }
+
+  .message_field {
+    height: 120px
+  }
+
+  form {
+    font-size: 18px;
+  }
+
+  .contactcontainer {
+    width: 80%
   }
 
 }
