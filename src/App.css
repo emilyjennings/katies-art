@@ -349,7 +349,14 @@ img:hover {
 
   .navbar {
     padding: 0;
+  }
 
+  .backarrow {
+    left: 80px
+  }
+
+  .forwardarrow {
+    right: 80px
   }
 
 }

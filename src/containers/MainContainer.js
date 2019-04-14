@@ -37,6 +37,12 @@ export default class MainContainer extends Component {
     });
   }
 
+  hideTopButton = () => {
+    $(".top").click(function(event){
+      $('.top').hide()
+    });
+  }
+
   render() {
     return(
       <div classname="main">
@@ -49,6 +55,7 @@ export default class MainContainer extends Component {
   componentDidMount(){
     {this.navStick()}
     {this.scrollTop()}
+    {this.hideTopButton()}
   }
 
 
