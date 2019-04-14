@@ -26,20 +26,6 @@ import ImageThirteen from './components/showpages/1620oilfullpet'
 
 
 class App extends Component {
-  navStick = () => {
-    $(".navstick").hide()
-
-
-    $(window).scroll(function(){
-      var scrollTop = $(window).scrollTop()
-      if (scrollTop > 130) {
-        $(".navstick").show()
-      } else if (scrollTop <= 130) {
-        $(".navstick").hide()
-      }
-    });
-
-  }
 
   render() {
     return (
@@ -68,10 +54,6 @@ class App extends Component {
         </div>
       </BrowserRouter>
     );
-  }
-
-  componentDidMount(){
-    {this.navStick()}
   }
 
 }
