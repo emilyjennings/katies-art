@@ -115,13 +115,20 @@ a:visited {
   display: block;
   margin: 30px auto;
   font-size: 20px;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 80px;
   position: fixed;
   bottom: 15px;
   right: 15px;
   z-index: 100;
   opacity: 0;
+  background-color: #f7e1f7
+}
+
+.top:hover {
+  background-color: #f7edf7;
+  color: #9e5299;
+  opacity: .5;
 }
 
 
@@ -189,6 +196,39 @@ a:visited {
   border: 1px solid #d1a1cf;
   border-radius: 5px;
   box-shadow: 5px 10px #d1a1cf;
+  height:auto;
+  overflow: scroll;
+}
+
+.name_field, .message_field, .email_field, .submit {
+  display: block;
+  margin: auto;
+  width: 300px;
+  font-size: 15px;
+}
+
+.submit {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  clear: both;
+  margin: 20px auto;
+}
+
+.message_field {
+  height: 200px
+}
+
+form {
+  font-size: 23px
+}
+
+.submit:hover {
+  background-color: #f7edf7;
+  color: #9e5299;
 }
 
 .bio {
@@ -229,16 +269,6 @@ a:visited {
   display: inline-block;
   float: right;
   margin: 20px
-}
-
-.eventcard {
-  display: inline-block;
-  width: 40%;
-  border: 1px solid #d1a1cf;
-  border-radius: 5px;
-  box-shadow: 5px 10px #d1a1cf;
-  float: left;
-  margin: 4%;
 }
 
 .title {

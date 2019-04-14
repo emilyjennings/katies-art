@@ -27,22 +27,26 @@ export default class Contact extends Component {
     //     });
     //   return false;
     // });
+
+    $('.submit').click(function() {
+      alert( "email submitted!" );
+      // $('.email_field').val('')
+      // $('.message_field').val('')
+    });
+
   }
 
   render() {
     return (
       <div className="contactcontainer">
-        <form className="contact-form" >
+        <div className="caption">Leave me your name and what you're looking for! I'll be in touch soon.</div>
+        <form id="contact-form" >
           <input type="hidden" name="contact_number" />
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="contact" />
-          <input type="submit" value="Send" />
+          email: <input type="email" name="user_email" className="email_field" />
+          name: <input type="text" name="user_name" className="name_field" />
+          message: <textarea name="text" className="message_field" />
+          <input type="submit" value="Send" className="submit" />
         </form>
-        <div className="caption">This form currently is not working, please use another form of contact</div>
       </div>
     );
   };
