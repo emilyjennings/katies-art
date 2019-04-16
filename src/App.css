@@ -157,6 +157,14 @@ a:visited {
   object-position: 80% 20%;
 }
 
+#two img {
+  object-position: top;
+}
+
+#four img {
+  object-position: center;
+}
+
 .price {
   text-align: center;
   font-weight: bold;
@@ -299,6 +307,7 @@ img:hover {
 .gallery {
   margin-top: 15%;
 }
+
 
 /*Show Pages*/
 
