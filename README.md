@@ -1,15 +1,11 @@
 # Katie's Art
 
-This project was made with an artist's gallery in mind. I wanted to create a sort of portfolio. There will be a landing page, an 'about' page for a bio, and a gallery page with an index of images.
-
-This will start as a react front end app. I want to create the features and design first.
-
-Then, I will add a back end using redux to make the app into a way for the artist, the admin, to log in and add new content.
+This was made with love for a friend who is a professional artist. She wanted to display and sell her paintings instead of using Etsy. I used create-react-app for this, integrating EmailJS for the contact form and deploying using Heroku. The biggest challenge here was customizing each portrait's show page, which I feel I can refactor to be way simpler. I also struggled a good bit using emailJS but my biggest problem turned out to be due to the fact that there are two npm packages. I also researched domain names and web hosting quite a bit to determine the best option for her for the long run.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to Run This
 
 In the project directory, you can run:
 
