@@ -165,12 +165,16 @@ a:visited {
   object-position: center;
 }
 
-.price {
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 30px;
-  font-family: "Open Sans Condensed"
+#seven img {
+  object-position: center
+}
+
+#six img {
+  object-position: bottom;
+}
+
+#thirteen img {
+  object-position: top
 }
 
 .caption {
@@ -286,7 +290,8 @@ form {
 
 .title {
   font-size: 40px;
-  margin: 20px 100px
+  margin: 20px 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .aboutimage img:hover {

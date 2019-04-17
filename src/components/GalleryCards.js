@@ -13,7 +13,6 @@ import image7 from './images/house.jpg'
 import image8 from './images/kid1.jpg'
 import image9 from './images/kid3.jpg'
 import image11 from './images/kid2.jpg'
-import image10 from './images/sanmiguel.jpg'
 import image13 from './images/dog4.jpg'
 
 
@@ -83,13 +82,6 @@ export default class GalleryCards extends Component {
         price: "$350",
         name: "/portrait7",
         id: "nine"
-      },
-      image10: {
-        link: image10,
-        desc: "San Miguel de Allende oil painting",
-        price: "$350",
-        name: "/sanmiguel",
-        id: "ten"
       },
       image11: {
         link: image11,
