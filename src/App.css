@@ -159,6 +159,7 @@ a:visited {
 
 #two img {
   object-position: top;
+  transform: scale(1.1);
 }
 
 #four img {
@@ -171,6 +172,7 @@ a:visited {
 
 #six img {
   object-position: bottom;
+  transform: scale(1.4);
 }
 
 #thirteen img {

@@ -1,6 +1,6 @@
 # Katie's Art
 
-This was made with love for a friend who is a professional artist. She wanted to display and sell her paintings instead of using Etsy. I used create-react-app for this, integrating EmailJS for the contact form and deploying using Heroku. The biggest challenge here was customizing each portrait's show page, which I feel I can refactor to be way simpler. I also struggled a good bit using emailJS but my biggest problem turned out to be due to the fact that there are two npm packages. I also researched domain names and web hosting quite a bit to determine the best option for her for the long run.
+This was made with love for a friend who is a professional artist. She wanted to display and sell her paintings instead of using Etsy. I used create-react-app for this, integrating EmailJS for the contact form and deploying using Heroku. The biggest challenge here was customizing each portrait's show page, which I feel I can refactor to be way simpler. I also struggled a good bit using emailJS but my biggest problem turned out to be due to the fact that there are two npm packages, and I had been trying to use the wrong one. I figured that out finally by using emailJS successfully in a simple JS program, so my code wasn't the issue. I also researched domain names, load speed, and web hosting quite a bit to determine the best option for her for the long run, which is something I was still new to during this project.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
