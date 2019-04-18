@@ -171,8 +171,8 @@ a:visited {
 }
 
 #six img {
-  object-position: bottom;
-  transform: scale(1.4);
+  object-position: 25% 75%;
+
 }
 
 #thirteen img {
@@ -408,6 +408,10 @@ img:hover {
 
   .forwardarrow {
     right: 80px
+  }
+
+  #six img {
+    transform: scale(1.4);
   }
 
 }
