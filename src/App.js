@@ -5,6 +5,7 @@ import $ from 'jquery'
 import './App.css';
 
 import MainContainer from './containers/MainContainer'
+import Footer from './components/Footer'
 import About from './components/About'
 import Shows from './components/Shows'
 import Contact from './components/Contact'
@@ -50,6 +51,7 @@ class App extends Component {
           <Route exact path="/portrait9" component={ImageTwelve} />
           <Route exact path="/portrait10" component={ImageThirteen} />
         </div>
+        <Footer />
       </BrowserRouter>
     );
   }

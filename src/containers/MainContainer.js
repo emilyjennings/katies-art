@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import Footer from '../components/Footer.js'
 import Header from '../components/Header'
 
 export default class MainContainer extends Component {
@@ -21,25 +20,16 @@ export default class MainContainer extends Component {
 
   scrollTop = () => {
     $(".top").click(function(event){
-      window.scrollTo({
-        top: 0,
-        left: 100,
-        behavior: 'smooth'
-      });
+      $("html").animate({ scrollTop: 0 }, "slow")
     });
 
     $(window).scroll(function(){
       var scrollTop = $(window).scrollTop()
-      if (scrollTop > 120) {
+      if (scrollTop > 180) {
         $('.top').animate({
           opacity: '1',
-        }, 500)};
-    });
-  }
-
-  hideTopButton = () => {
-    $(".top").click(function(event){
-      $('.top').hide()
+        }, 1000)
+      };
     });
   }
 
@@ -47,7 +37,6 @@ export default class MainContainer extends Component {
     return(
       <div classname="main">
         <Header />
-        <Footer />
       </div>
     )
   }
@@ -55,7 +44,6 @@ export default class MainContainer extends Component {
   componentDidMount(){
     {this.navStick()}
     {this.scrollTop()}
-    {this.hideTopButton()}
   }
 
 

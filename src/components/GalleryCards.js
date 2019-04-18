@@ -128,7 +128,9 @@ export default class GalleryCards extends Component {
       </div>)
   }
 
-
+  componentDidMount(){
+    {this.changeHeader()}
+  }
 
 
   render() {
@@ -142,9 +144,6 @@ export default class GalleryCards extends Component {
     );
   };
 
-  componentDidMount(){
-    {this.changeHeader()}
-  }
 
 
 }

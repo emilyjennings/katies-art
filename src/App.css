@@ -32,11 +32,13 @@ body {
   font-size: 60px;
   font-family: 'Amatic SC', cursive;
   padding: 20px auto 0 auto;
-  margin-top: 10px
+  margin-top: 10px;
+  color: black
 }
 
 .navbar a {
   text-decoration: none;
+  color: black;
 }
 
 .navlinks a {
@@ -98,14 +100,16 @@ a:visited {
 /* Footer */
 
 .emily {
-  padding: 10px 0 20px 0;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 10px;
-  z-index: 1;
   font-family: 'Amatic SC', cursive;
-  color: black;
+  color: #d1a1cf;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.emily a, .emily a:visited, .emily a:hover {
+  color: #d1a1cf;
+  text-decoration: none;
 }
 
 .top {
@@ -129,6 +133,26 @@ a:visited {
   background-color: #f7edf7;
   color: #9e5299;
   opacity: .5;
+}
+
+.socialmedia {
+  color: #d1a1cf;
+  width: 100%;
+  margin: 0 auto 10px auto;
+  text-align: center;
+}
+
+.socialmedia a {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.socialmedia i:hover {
+  color: black
+}
+
+i {
+  color: #d1a1cf;
 }
 
 
@@ -188,6 +212,7 @@ a:visited {
   padding: 20px;
   height: 50px;
   overflow: hidden;
+
 }
 
 .noimage {
@@ -457,7 +482,12 @@ img:hover {
   }
 
   .emily {
-    font-size: 12px;
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  i {
+    font-size: 35px;
   }
 
   .aboutimage {
