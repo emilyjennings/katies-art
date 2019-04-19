@@ -325,6 +325,10 @@ form {
   opacity: 1;
 }
 
+.show i {
+  color: black
+}
+
 /* Images */
 
 img {
@@ -487,7 +491,7 @@ img:hover {
   }
 
   i {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .aboutimage {
