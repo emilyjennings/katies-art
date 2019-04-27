@@ -18,6 +18,8 @@ import image13 from './images/dog4.jpg'
 
 export default class GalleryCards extends Component {
 
+
+// All of Katie's artwork is stored in state
   state = {
     images: {
       image1: {
@@ -110,10 +112,6 @@ export default class GalleryCards extends Component {
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
-
-  // handleClickImage = (image) => {
-  //   this.props.displayShowImage(image)
-  // }
 
   // Used to render the gallery images
   displayCards = () => {

@@ -3,39 +3,22 @@ import $ from 'jquery'
 
 export default class Contact extends Component {
 
+
+// changes the header subtitle
   changeHeader = () => {
     $('.navsubtitle').text("contact me")
   }
 
-  emailForm = () => {
-    // var myform = $("form#myform");
-    // myform.submit(function(event){
-    // 	event.preventDefault();
-    //
-    //   // Change to your service ID, or keep using the default service
-    //   var service_id = "gmail";
-    //   var template_id = "contact_form";
-    //
-    //   myform.find("button").text("Sending...");
-    //   emailjs.sendForm(service_id,template_id,myform[0])
-    //   	.then(function(){
-    //     	alert("Sent!");
-    //        myform.find("button").text("Send");
-    //     }, function(err) {
-    //        alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-    //        myform.find("button").text("Send");
-    //     });
-    //   return false;
-    // });
+// gives a confirmation that the email was sent
 
+  emailForm = () => {
     $('.submit').click(function() {
       alert( "email submitted!" );
-      // $('.email_field').val('')
-      // $('.message_field').val('')
     });
 
   }
 
+// contact form as per code given by EmailJS, thwe library used for this form
   render() {
     return (
       <div className="contactcontainer">
@@ -52,8 +35,8 @@ export default class Contact extends Component {
   };
 
   componentDidMount(){
-    {this.emailForm()}
     {this.changeHeader()}
+    {this.emailForm()}
   }
 
 
