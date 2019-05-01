@@ -7,6 +7,7 @@ export default class About extends Component {
 
   changeHeader = () => {
     $('.navsubtitle').text("about me")
+    $('.navstick').hide()
   }
 
   render() {

@@ -67,6 +67,7 @@ body {
   top: 0;
   left: 0;
   height: 55px;
+  opacity: 0
 }
 
 .navstick a {

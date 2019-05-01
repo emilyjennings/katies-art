@@ -7,7 +7,6 @@ import './App.css';
 import MainContainer from './containers/MainContainer'
 import Footer from './components/Footer'
 import About from './components/About'
-import Shows from './components/Shows'
 import Contact from './components/Contact'
 import GalleryCards from './components/GalleryCards'
 
@@ -35,7 +34,6 @@ class App extends Component {
 
           <Route exact path="/" component={GalleryCards} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/shows" component={Shows} />
           <Route exact path="/contact" component={Contact} />
 
           <Route exact path="/portrait1" component={ImageOne} />
