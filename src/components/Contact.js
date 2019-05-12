@@ -49,7 +49,7 @@ export default class Contact extends Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <form name="katies-art" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact" onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
