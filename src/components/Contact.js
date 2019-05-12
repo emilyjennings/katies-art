@@ -65,7 +65,7 @@ export default class Contact extends Component {
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+              Message: <br></br> <textarea name="message" value={message} onChange={this.handleChange} />
             </label>
           </p>
           <p>
