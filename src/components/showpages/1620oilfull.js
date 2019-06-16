@@ -13,10 +13,6 @@ export default class ImageNine extends Component {
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
-  //
-  // displayShowImage = (image = "") => {
-  //   this.setState({image: image})
-  // }
 
 
   render() {
