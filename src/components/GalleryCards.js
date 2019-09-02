@@ -22,6 +22,55 @@ export default class GalleryCards extends Component {
 // All of Katie's artwork is stored in state
   state = {
     images: {
+      image7: {
+        link: image7,
+        desc: "12x9 home illustration",
+        price: "$65",
+        name: "/homes",
+        id: "seven"
+      },
+      image6: {
+        link: image6,
+        desc: "Murals and decorative painting",
+        price: "$1000",
+        name: "/murals",
+        id: "six"
+      },
+      image4: {
+        link: image4,
+        desc: "14x11 double oil portrait",
+        price: "$350",
+        name: "/portrait4",
+        id: "four"
+      },
+      image8: {
+        link: image8,
+        desc: "16x20 oil portrait - bust",
+        price: "$300",
+        name: "/portrait6",
+        id: "eight"
+      },
+      image11: {
+        link: image11,
+        desc: "16x20 oil portrait - half figure",
+        price: "$325",
+        name: "/portrait8",
+        id: "eleven"
+      },
+      image9: {
+        link: image9,
+        desc: "16x20 oil portrait - full figure",
+        price: "$350",
+        name: "/portrait7",
+        id: "nine"
+      },
+      image5: {
+        link: image5,
+        desc: "20x16 oil portrait 3 figures",
+        price: "$450",
+        name: "/portrait5",
+        id: "five"
+      },
       image1: {
         link: portrait1,
         desc: "11x14 custom oil paint pet portrait, bust",
@@ -42,55 +91,6 @@ export default class GalleryCards extends Component {
         price: "$325",
         name: "/portrait3",
         id: "three"
-      },
-      image4: {
-        link: image4,
-        desc: "14x11 double oil portrait",
-        price: "$350",
-        name: "/portrait4",
-        id: "four"
-      },
-      image5: {
-        link: image5,
-        desc: "20x16 oil portrait 3 figures",
-        price: "$450",
-        name: "/portrait5",
-        id: "five"
-      },
-      image6: {
-        link: image6,
-        desc: "Mural",
-        price: "$1000",
-        name: "/murals",
-        id: "six"
-      },
-      image7: {
-        link: image7,
-        desc: "12x9 Watercolor home portrait",
-        price: "$65",
-        name: "/homes",
-        id: "seven"
-      },
-      image8: {
-        link: image8,
-        desc: "16x20 oil portrait - bust",
-        price: "$300",
-        name: "/portrait6",
-        id: "eight"
-      },
-      image9: {
-        link: image9,
-        desc: "16x20 oil portrait - full figure",
-        price: "$350",
-        name: "/portrait7",
-        id: "nine"
-      },
-      image11: {
-        link: image11,
-        desc: "16x20 oil portrait - half figure",
-        price: "$325",
-        name: "/portrait8",
-        id: "eleven"
       },
       image12: {
         link: image12,
