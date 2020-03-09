@@ -5,7 +5,7 @@
   "dependencies": {
     "emailjs": "^2.2.0",
     "emailjs-com": "^2.3.2",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-router-dom": "^5.0.0",
