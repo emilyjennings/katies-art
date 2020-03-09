@@ -3,7 +3,7 @@ import $ from 'jquery'
 
 import image1 from '../images/dog1.jpg'
 import image2 from '../images/1114dogbust2.jpg'
-import image3 from '../images/1114petoilbust3.jpg'
+import image3 from '../images/11by14bust.jpg'
 
 
 export default class ImageOne extends Component {

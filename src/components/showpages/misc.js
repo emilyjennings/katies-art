@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image from '../images/dog2.jpg'
+import image from '../images/custom 12by12.jpg'
 
 
-export default class ImageTwo extends Component {
+export default class Misc extends Component {
 
   state = {
     image: image
@@ -19,7 +19,7 @@ export default class ImageTwo extends Component {
     return (
       <div className="show">
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
-        <div className="title">Size 11x14 custom oil paint pet portrait. $275 for 1 animal, bust only.</div>
+        <div className="title">Custom oil portraits, ask for price.</div>
       </div>
 
     );

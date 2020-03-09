@@ -1,29 +1,49 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image from '../images/dogs1.jpg'
+import image1 from '../images/dogs1.jpg'
+import image2 from '../images/11by14doublepet.jpg'
 
 
 export default class ImageThree extends Component {
 
   state = {
-    image: image
+    images: [image1, image2]
   }
 
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
-  //
-  // displayShowImage = (image = "") => {
-  //   this.setState({image: image})
-  // }
 
+  changeImage = () => {
+    $('.forwardarrow').on({
+      'click': function() {
+        let src = ($('#imageid').attr('src') === image1)
+          ? image2
+          : image1
+        $("#imageid").attr('src', src)
+       }
+    })
+  }
+
+  backImage = () => {
+    $('.backarrow').on({
+      'click': function() {
+        let src = ($('#imageid').attr('src') === image2)
+          ? image1
+          : image2
+        $("#imageid").attr('src', src)
+       }
+    })
+  }
 
   render() {
     return (
       <div className="show">
-        <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
-        <div className="title">Size 11x14 custom oil paint pet portrait. $325 for 2 animals, bust only.</div>
+          <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
+          <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+          <div className="title">Size 16x20 custom oil paint portrait. $325 for 1 figure, half body.</div>
+          <div className="forwardarrow" onClick={this.changeImage()}><i class="fas fa-arrow-right"></i></div>
       </div>
 
     );
@@ -31,6 +51,8 @@ export default class ImageThree extends Component {
 
   componentDidMount(){
     {this.changeHeader()}
+    {this.changeImage()}
+    {this.backImage()}
   }
 
 

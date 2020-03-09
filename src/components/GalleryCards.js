@@ -10,10 +10,12 @@ import image4 from './images/kids1.jpg'
 import image5 from './images/kids2.jpg'
 import image6 from './images/mural.jpg'
 import image7 from './images/house.jpg'
-import image8 from './images/kid1.jpg'
+import image8 from './images/16by20bust.jpg'
 import image9 from './images/kid3.jpg'
 import image11 from './images/kid2.jpg'
 import image13 from './images/dog4.jpg'
+import image14 from './images/16by20doubleportrait.jpeg'
+import image15 from './images/custom 12by12.jpg'
 
 
 export default class GalleryCards extends Component {
@@ -22,6 +24,13 @@ export default class GalleryCards extends Component {
 // All of Katie's artwork is stored in state
   state = {
     images: {
+      image8: {
+        link: image8,
+        desc: "16x20 oil portrait - bust",
+        price: "$300",
+        name: "/portrait6",
+        id: "eight"
+      },
       image7: {
         link: image7,
         desc: "12x9 home illustration",
@@ -43,13 +52,6 @@ export default class GalleryCards extends Component {
         name: "/portrait4",
         id: "four"
       },
-      image8: {
-        link: image8,
-        desc: "16x20 oil portrait - bust",
-        price: "$300",
-        name: "/portrait6",
-        id: "eight"
-      },
       image11: {
         link: image11,
         desc: "16x20 oil portrait - half figure",
@@ -67,7 +69,7 @@ export default class GalleryCards extends Component {
       image5: {
         link: image5,
         desc: "20x16 oil portrait 3 figures",
-        price: "$450",
+        price: "$500",
         name: "/portrait5",
         id: "five"
       },
@@ -105,6 +107,20 @@ export default class GalleryCards extends Component {
         price: "$325",
         name: "/portrait10",
         id: "thirteen"
+      },
+      image14: {
+        link: image14,
+        desc: "16x20 double portrait",
+        price: "$450",
+        name: "/portrait11",
+        id: "fourteen"
+      },
+      image15: {
+        link: image15,
+        desc: "miscellaneous",
+        price: "ask for price",
+        name: "/portrait15",
+        id: "fifteen"
       },
     }
   }
