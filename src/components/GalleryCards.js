@@ -62,9 +62,16 @@ export default class GalleryCards extends Component {
       image13: {
         link: image13,
         desc: "PET FULL FIGURE (16x20)",
-        price: "$350",
+        price: "$300",
         name: "/portrait10",
         id: "thirteen"
+      },
+      image12: {
+        link: image12,
+        desc: "PET 1/2 FIGURE (16x20)",
+        price: "$275",
+        name: "/portrait9",
+        id: "twelve"
       },
       image7: {
         link: image7,
@@ -93,13 +100,6 @@ export default class GalleryCards extends Component {
         price: "$325",
         name: "/portrait3",
         id: "three"
-      },
-      image12: {
-        link: image12,
-        desc: "16x20 oil pet portrait, bust",
-        price: "$275",
-        name: "/portrait9",
-        id: "twelve"
       },
       image15: {
         link: image15,

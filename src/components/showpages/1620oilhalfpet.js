@@ -19,7 +19,8 @@ export default class ImageTwelve extends Component {
     return (
       <div className="show">
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
-        <div className="title">Size 16x20 custom oil paint pet portrait. $275 for 1 animal, bust only.</div>
+        <div className="title">Size 16x20 custom oil paint pet half figure portrait</div>
+        <div className="title">$300</div>
       </div>
 
     );
