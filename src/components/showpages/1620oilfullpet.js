@@ -13,17 +13,14 @@ export default class ImageThirteen extends Component {
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
-  //
-  // displayShowImage = (image = "") => {
-  //   this.setState({image: image})
-  // }
 
 
   render() {
     return (
       <div className="show">
         <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
-        <div className="title">Size 16x20 custom oil paint pet portrait. $325 for 1 animal, full figure.</div>
+        <div className="title">Size 16x20 custom oil paint pet portrait</div>
+        <div className="title">$350</div>
       </div>
 
     );
