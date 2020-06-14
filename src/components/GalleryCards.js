@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import $ from 'jquery'
 
-import portrait1 from './images/dog1.jpg'
+import portrait1 from './images/11by14bust.jpg'
 import image2 from './images/dog2.jpg'
 import image12 from './images/dog3.jpg'
 import image3 from './images/dogs1.jpg'
@@ -16,6 +16,7 @@ import image11 from './images/kid2.jpg'
 import image13 from './images/dog4.jpg'
 import image14 from './images/16by20doubleportrait.jpeg'
 import image15 from './images/custom 12by12.jpg'
+import image16 from './images/home4.jpg'
 
 
 export default class GalleryCards extends Component {
@@ -73,37 +74,44 @@ export default class GalleryCards extends Component {
         name: "/portrait9",
         id: "twelve"
       },
-      image7: {
-        link: image7,
-        desc: "12x9 home illustration",
-        price: "$65",
-        name: "/homes",
-        id: "seven"
-      },
-      image1: {
-        link: portrait1,
-        desc: "11x14 custom oil paint pet portrait, bust",
-        price: "$225",
-        name: "/portrait1",
-        id: "one"
-      },
       image2: {
         link: image2,
-        desc: "11x14 custom oil paint pet portrait, full figure",
-        price: "$275",
+        desc: "PET FULL FIGURE (11x14)",
+        price: "$300",
         name: "/portrait2",
         id: "two"
       },
       image3: {
         link: image3,
-        desc: "11x14 double pet oil portrait",
-        price: "$325",
+        desc: "PET 2 FIGURES (11x14)",
+        price: "$350",
         name: "/portrait3",
         id: "three"
       },
+      image1: {
+        link: portrait1,
+        desc: "PET 1/2 FIGURE (11x14)",
+        price: "$250",
+        name: "/portrait1",
+        id: "one"
+      },
+      image7: {
+        link: image7,
+        desc: "HOME ILLUSTRATION (9x12)",
+        price: "$125",
+        name: "/homes-watercolor",
+        id: "seven"
+      },
+      image16: {
+        link: image16,
+        desc: "HOME ILLUSTRATION (9x12)",
+        price: "$100",
+        name: "/homes-charcoal",
+        id: "sixteen"
+      },
       image15: {
         link: image15,
-        desc: "miscellaneous",
+        desc: "MISCELLANEOUS",
         price: "ask for price",
         name: "/portrait15",
         id: "fifteen"

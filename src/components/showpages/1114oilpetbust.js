@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image1 from '../images/dog1.jpg'
-import image2 from '../images/1114dogbust2.jpg'
-import image3 from '../images/11by14bust.jpg'
+import image1 from '../images/11by14bust.jpg'
+import image2 from '../images/dog1.jpg'
+import image3 from '../images/1114dogbust2.jpg'
 
 
 export default class ImageOne extends Component {
@@ -61,7 +61,8 @@ export default class ImageOne extends Component {
       <div className="show">
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="title">Size 11x14 custom oil paint pet portrait. $225 for 1 animal, bust only.</div>
+          <div className="title">Size 11x14 custom oil paint pet half figure portrait</div>
+          <div className="title">$250</div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 

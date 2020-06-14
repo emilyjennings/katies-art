@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 
-import image1 from '../images/dogs1.jpg'
-import image2 from '../images/11by14doublepet.jpg'
+import image1 from '../images/home4.jpg'
+import image2 from '../images/homecharcoal.JPG'
 
 
-export default class ImageThree extends Component {
+export default class ImageFourteen extends Component {
 
   state = {
     images: [image1, image2]
@@ -37,14 +37,15 @@ export default class ImageThree extends Component {
     })
   }
 
+
   render() {
     return (
       <div className="show">
-          <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
-          <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="title">Size 11x14 custom oil double pet portrait</div>
-          <div className="title">$350</div>
-          <div className="forwardarrow" onClick={this.changeImage()}><i class="fas fa-arrow-right"></i></div>
+      <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
+      <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
+      <div className="title">Custom 9x12 charcoal home illustration </div>
+      <div className="title">$100</div>
+      <div className="forwardarrow" onClick={this.changeImage()}><i class="fas fa-arrow-right"></i></div>
       </div>
 
     );

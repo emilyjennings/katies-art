@@ -24,6 +24,7 @@ import ImageTwelve from './components/showpages/1620oilhalfpet'
 import ImageThirteen from './components/showpages/1620oilfullpet'
 import DoublePortrait from './components/showpages/double1620portrait'
 import Misc from './components/showpages/misc'
+import ImageFourteen from './components/showpages/homecharcoal'
 
 
 class App extends Component {
@@ -44,7 +45,8 @@ class App extends Component {
           <Route exact path="/portrait4" component={ImageFour} />
           <Route exact path="/portrait5" component={ImageFive} />
           <Route exact path="/murals" component={ImageSix} />
-          <Route exact path="/homes" component={ImageSeven} />
+          <Route exact path="/homes-watercolor" component={ImageSeven} />
+          <Route exact path="/homes-charcoal" component={ImageFourteen} />
           <Route exact path="/portrait6" component={ImageEight} />
           <Route exact path="/portrait7" component={ImageNine} />
           <Route exact path="/portrait8" component={ImageTen} />

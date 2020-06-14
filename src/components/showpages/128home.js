@@ -4,17 +4,16 @@ import $ from 'jquery'
 import image1 from '../images/house.jpg'
 import image2 from '../images/home2.jpg'
 import image3 from '../images/home3.jpg'
-import image4 from '../images/home4.jpg'
 
 
 export default class ImageSeven extends Component {
 
   state = {
-    images: [image1, image2, image3, image4]
+    images: [image1, image2, image3]
   }
 
   changeHeader = () => {
-    $('.navsubtitle').text("home illustrations")
+    $('.navsubtitle').text("custom oil portraits")
   }
 
   changeImage = () => {
@@ -26,9 +25,6 @@ export default class ImageSeven extends Component {
             break;
           case image2:
             $('#imageid').attr('src', image3)
-            break;
-          case image3:
-            $('#imageid').attr('src', image4)
             break;
           case image3:
             $('#imageid').attr('src', image1)
@@ -44,9 +40,6 @@ export default class ImageSeven extends Component {
     $('.backarrow').on({
       'click': function() {
         switch ($('#imageid').attr('src')) {
-          case image4:
-            $('#imageid').attr('src', image3)
-            break;
           case image3:
             $('#imageid').attr('src', image2)
             break;
@@ -54,10 +47,10 @@ export default class ImageSeven extends Component {
             $('#imageid').attr('src', image1)
             break;
           case image1:
-            $('#imageid').attr('src', image4)
+            $('#imageid').attr('src', image3)
             break;
           default:
-            $('#imageid').attr('src', image4)
+            $('#imageid').attr('src', image3)
         }
        }
     })
@@ -68,7 +61,8 @@ export default class ImageSeven extends Component {
       <div className="show">
         <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
         <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-        <div className="title">Size 12x9 custom watercolor or charcoal home illustration. $100.</div>
+        <div className="title">Custom 9x12 watercolor home illustration</div>
+        <div className="title">$125</div>
         <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 
