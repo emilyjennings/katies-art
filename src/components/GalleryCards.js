@@ -10,7 +10,7 @@ import image4 from './images/kids1.jpg'
 import image5 from './images/kids2.jpg'
 import image6 from './images/mural.jpg'
 import image7 from './images/house.jpg'
-import image8 from './images/16by20bust.jpg'
+import image8 from './images/half figure.jpg'
 import image9 from './images/kid3.jpg'
 import image11 from './images/kid2.jpg'
 import image13 from './images/dog4.jpg'
@@ -47,10 +47,10 @@ export default class GalleryCards extends Component {
       },
       image8: {
         link: image8,
-        desc: "16x20 oil portrait - bust",
-        price: "$300",
-        name: "/portrait6",
-        id: "eight"
+        desc: "1/2 FIGURE (16x20)",
+        price: "$350",
+        name: "/portrait8",
+        id: "eleven"
       },
       image7: {
         link: image7,
@@ -65,20 +65,6 @@ export default class GalleryCards extends Component {
         price: "$350",
         name: "/portrait4",
         id: "four"
-      },
-      image11: {
-        link: image11,
-        desc: "16x20 oil portrait - half figure",
-        price: "$325",
-        name: "/portrait8",
-        id: "eleven"
-      },
-      image9: {
-        link: image9,
-        desc: "16x20 oil portrait - full figure",
-        price: "$350",
-        name: "/portrait7",
-        id: "nine"
       },
       image1: {
         link: portrait1,
