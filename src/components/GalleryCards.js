@@ -112,7 +112,7 @@ export default class GalleryCards extends Component {
       image15: {
         link: image15,
         desc: "MISCELLANEOUS",
-        price: "ask for price",
+        price: "Custom sizes, medium, and subjects. Inquire for quotes.",
         name: "/portrait15",
         id: "fifteen"
       },
