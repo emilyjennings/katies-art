@@ -42,7 +42,8 @@ export default class ImageFive extends Component {
       <div className="show">
           <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
           <div className="showimagewide"><img src={this.state.images[0]} id="imageid" alt="" /></div>
-          <div className="title">Size 20x16 custom oil paint group portrait. $500 for 3 figures.</div>
+          <div className="title">Size 16x20 custom oil paint triple portrait</div>
+          <div className="title">$500</div>
           <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
       </div>
 

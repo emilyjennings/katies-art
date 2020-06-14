@@ -3,7 +3,6 @@ import $ from 'jquery'
 
 import image from '../images/kids1.jpg'
 
-
 export default class ImageFour extends Component {
 
   state = {
@@ -13,17 +12,13 @@ export default class ImageFour extends Component {
   changeHeader = () => {
     $('.navsubtitle').text("custom oil portraits")
   }
-  //
-  // displayShowImage = (image = "") => {
-  //   this.setState({image: image})
-  // }
-
 
   render() {
     return (
       <div className="show">
-        <div className="showimagewide"><img src={this.state.image} id="imageid" alt="" /></div>
-        <div className="title">Size 14x11 custom oil paint group portrait. $350 for 2 figures, bust only.</div>
+        <div className="showimage"><img src={this.state.image} id="imageid" alt="" /></div>
+        <div className="title">Size 11x14 custom oil double pet portrait</div>
+        <div className="title">$350</div>
       </div>
 
     );

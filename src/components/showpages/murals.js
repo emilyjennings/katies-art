@@ -70,7 +70,7 @@ export default class ImageSix extends Component {
         <div className="backarrow"><i class="fas fa-arrow-left"></i></div>
         <div className="showimage"><img src={this.state.images[0]} id="imageid" alt="" /></div>
         <div className="forwardarrow"><i class="fas fa-arrow-right"></i></div>
-        <div className="title">Mural commissions. Interior or exterior. Charged by square footage and detail. Inquire for quotes.</div>
+        <div className="title">Interior or exterior. Charged by square footage and detail. Inquire for quotes.</div>
       </div>
 
     );

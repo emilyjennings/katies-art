@@ -24,6 +24,27 @@ export default class GalleryCards extends Component {
 // All of Katie's artwork is stored in state
   state = {
     images: {
+      image6: {
+        link: image6,
+        desc: "MURALS AND DECORATIVE PAINTING",
+        price: "Inquire for quotes",
+        name: "/murals",
+        id: "six"
+      },
+      image5: {
+        link: image5,
+        desc: "3 FIGURES (16x20)",
+        price: "$500",
+        name: "/portrait5",
+        id: "five"
+      },
+      image14: {
+        link: image14,
+        desc: "2 FIGURES (16x20)",
+        price: "$450",
+        name: "/portrait11",
+        id: "fourteen"
+      },
       image8: {
         link: image8,
         desc: "16x20 oil portrait - bust",
@@ -37,13 +58,6 @@ export default class GalleryCards extends Component {
         price: "$65",
         name: "/homes",
         id: "seven"
-      },
-      image6: {
-        link: image6,
-        desc: "Murals and decorative painting",
-        price: "$1000",
-        name: "/murals",
-        id: "six"
       },
       image4: {
         link: image4,
@@ -65,13 +79,6 @@ export default class GalleryCards extends Component {
         price: "$350",
         name: "/portrait7",
         id: "nine"
-      },
-      image5: {
-        link: image5,
-        desc: "20x16 oil portrait 3 figures",
-        price: "$500",
-        name: "/portrait5",
-        id: "five"
       },
       image1: {
         link: portrait1,
@@ -107,13 +114,6 @@ export default class GalleryCards extends Component {
         price: "$325",
         name: "/portrait10",
         id: "thirteen"
-      },
-      image14: {
-        link: image14,
-        desc: "16x20 double portrait",
-        price: "$450",
-        name: "/portrait11",
-        id: "fourteen"
       },
       image15: {
         link: image15,
